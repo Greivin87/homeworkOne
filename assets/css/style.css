@@ -1,0 +1,182 @@
+body{
+margin:0px;
+background-image: url("../images/background.png");
+}
+
+
+#header{
+position: relative;
+height: 100px;
+width: 100%;
+margin-top: -35px;
+background: #ffffff;
+border-bottom:3px solid #dddddd;
+}
+
+.links{
+font-family: Arial, Helvetica, sans-serif;
+text-align: right;
+margin-bottom: -60px; 
+margin-right: 165px;
+font-size: 20px;
+
+}
+a:link{
+
+text-decoration:none;
+}
+
+a:visited {
+  color: #777777;
+}
+
+a:hover {
+  color: #4aaaa5;
+}
+
+ 
+a:active {
+  color: #383737;
+
+}
+
+h1{
+border-right: 7px solid #eeeeee;
+border-left: 4px solid #eeeeee;
+height: 100px;
+line-height: 100px;
+width: 300px;
+background:#4aaaa5;
+
+
+margin-left: 160px;
+text-align:center ;
+font-size: 32pt;
+font-family: serif;
+margin-bottom: -60px; 
+color: #ffffff;
+}
+
+#content{
+position: relative;
+background: #ffffff;
+height:1180px;
+width: 960px;
+margin: 0 auto 0 auto;
+margin-top:20px;
+border-top-right-radius:7px;
+border-top-left-radius: 7px;
+border: 1px solid #dddddd;
+
+}
+
+
+h2{
+margin:25px;
+margin-bottom: -10px;
+padding-left: 25px;
+font-size:24pt;
+color: #4aaaa5;
+}
+
+hr{
+height:2px;
+width:900px;
+margin-top: 20px;
+border-style: none;
+background: #dddddd;
+ }
+
+
+
+p{
+height: 100px;
+width: 600px;
+padding-left: 35px;
+font-family: Arial;
+font-size:19px;
+color: #777777;
+margin: -10px;
+float: right;
+}
+
+
+#image{
+position: absolute;
+margin-top: 10px;
+padding:30px;
+
+}
+#footer{
+padding-bottom:0px;
+height:65px;
+width: 100%;
+margin-top:30px;
+background:#666666;
+border-top: 8px solid #4aaaa5;
+text-align: center;
+line-height: 50px;
+color: #dddddd;
+
+}
+
+
+#contact-form{
+margin: 0 auto 0 auto;
+padding-top: 20px;
+width: 750px; 
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+}
+
+
+input[type=text], select, textarea {
+width: 700px;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-top: 10px;
+margin-bottom: 10px;
+resize: vertical;
+  }
+  
+input[type=submit] {
+ background-color: #dddddd;
+color: #4aaaa5;
+padding: 10px 20px;
+ border: none;
+border-radius: 3px;
+ font-family: bold Arial, Helvetica, sans-serif;
+ font-size: 15px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #fcfafa;
+  }
+/* photo gallery goes here */
+
+.gallery{
+margin: 400px;
+padding: 30px;
+margin-top:1px;
+margin-left: 20px;
+margin-right: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
